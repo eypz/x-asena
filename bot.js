@@ -1,11 +1,11 @@
 
 
 const {
-  default: makeWASocket,
+  default: Maher_Zubair,
   Browsers,
   makeInMemoryStore,
   useMultiFileAuthState,
-} = require("@adiwajshing/baileys");
+} = require("maher-zubair-baileys");
 const singleToMulti = require("./lib/singleToMulti");
 const fs = require("fs");
 const { serialize } = require("./lib/serialize");
