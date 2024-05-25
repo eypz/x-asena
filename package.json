@@ -1,15 +1,15 @@
 {
-  "name": "Izumi-v2",
+  "name": "x-asena",
   "version": "2.0.0",
   "description": "IZUMI-MD simple multi device WhatsApp Bot.",
   "main": "./index.js",
   "type": "commonjs",
   "scripts": {
-    "start":  "pm2 start . --attach --name izumi"
+    "start":  "pm2 start . --attach --name eypz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eypz/Izumi-v2.git"
+    "url": "git+https://github.com/eypz/x-asena.git"
   },
   "keywords": [
     "bot",
@@ -22,11 +22,12 @@
   "developer": "EYPZ",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/eypz/Izumi-v2/issues"
+    "url": "https://github.com/eypz/x-asena/issues"
   },
-  "homepage": "https://github.com/eypz/Izumi-v2#readme",
+  "homepage": "https://github.com/eypz/x-asena#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
+    "maher-zubair-baileys": "^6.6.5",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "3.0.0",
     "@neeraj-x0/textpro": "^1.0.3",
